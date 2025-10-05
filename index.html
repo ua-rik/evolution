@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Еволюція пікселів</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="controls">
+      <h1>Симуляція еволюції пікселів</h1>
+      <button id="toggleButton" type="button">▶ Запустити</button>
+    </header>
+    <main class="content">
+      <div class="board-wrapper">
+        <canvas id="board" width="720" height="720"></canvas>
+        <div id="tooltip" class="tooltip" hidden></div>
+      </div>
+      <aside class="log-panel">
+        <h2>Журнал битв</h2>
+        <ul id="logList"></ul>
+      </aside>
+    </main>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
