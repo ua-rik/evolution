@@ -1,8 +1,8 @@
 const CONFIG = {
-  gridSize: 60,
+  gridSize: 50,
   cellSize: 12,
   populations: 6,
-  pixelsPerPopulation: 16,
+  pixelsPerPopulation: 100,
   genesPerPixel: 8,
   mutationChance: 0.2,
   tickDuration: 200,
