@@ -2,10 +2,10 @@ const CONFIG = {
   gridSize: 60,
   cellSize: 12,
   populations: 6,
-  pixelsPerPopulation: 8,
-  genesPerPixel: 10,
+  pixelsPerPopulation: 16,
+  genesPerPixel: 8,
   mutationChance: 0.2,
-  tickDuration: 350,
+  tickDuration: 200,
 };
 
 const BOARD_COLORS = {
